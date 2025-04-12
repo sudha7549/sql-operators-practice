@@ -1,0 +1,25 @@
+SELECT * FROM employee3;
+ 
+
+--FIND THE EMPLOYEES WHERE THE EMAIL COLUMN IS NULL (IF APPLICABLE).
+SELECT first_name, last_name, email
+FROM employee3
+WHERE email IS NULL;
+
+
+
+--LIST EMPLOYEES SORTED BY SALARY IN DESCENDING ORDER.
+
+SELECT first_name, last_name, salary
+FROM employee3
+ORDER BY salary DESC;
+
+--RETRIEVE THE TOP 5 HIGHEST_PAID EMPLOYEES.
+SELECT first_name, last_name, salary
+FROM employee3
+ORDER BY salary DESC
+LIMIT 5;
+
+-- RETRIEVE A LIST OF UNIQUE DEPARTMENTS
+SELECT COUNT (DISTINCT department) AS EP_UNIQUE_COUNT
+FROM employee3;
