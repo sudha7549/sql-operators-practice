@@ -1,4 +1,4 @@
-# sql-operators-practice
+# SQL-OPERATORS-PRACTICE
 
 A comprehensive SQL practice project focusing on fundamental SQL operators including arithmetic, comparison, logical, pattern matching (LIKE, IN, BETWEEN), and set operations (UNION, INTERSECT, MINUS). Each day explores different aspects of SQL query capabilities with practical examples and use cases.
 
